@@ -1,7 +1,7 @@
 # 项目名：鹅鸭杀组队小程序
 ## 技术：`vue`+`uniapp`+`阿里云`+`微信小程序`（时代的眼泪）
 #
-### 导入项目 配置项目过程
+### 导入项目 配置项目过程，功能演示视频：https://www.bilibili.com/video/BV1os4y1P7mN/?share_source=copy_web&vd_source=652b50647b3da3ba324d79d31cc81632
 
 1. 打开HBuilderX，导入项目；注：导入前先把“image_materials”图片素材文件夹移除项目目录，图片素材有中文可能会引起报错！！！
 
