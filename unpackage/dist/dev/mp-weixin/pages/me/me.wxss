@@ -1,0 +1,183 @@
+
+	/* 背景图 */
+.bg_box {
+		width: 100%;
+		height: 400rpx;
+}
+.bg_box image {
+		width: 100%;
+		height: 100%;
+		border-radius: 0rpx 0rpx 30rpx 30rpx;
+		box-shadow: 4px 4px 8px rgba(141, 138, 138, 0.5);
+}
+
+	/* 头像框 */
+.headimg {
+		margin: 15rpx auto;
+		padding: 10rpx;
+		width: 250rpx;
+		height: 250rpx;
+		-webkit-backdrop-filter: blur(10px);
+		        backdrop-filter: blur(10px);
+		border-radius: 18rpx;
+		background: rgba(250, 250, 250, 0.5);
+		box-shadow: 4px 4px 8px rgba(141, 138, 138, 0.5);
+}
+.headimg image {
+		width: 100%;
+		height: 100%;
+		border-radius: 16rpx;
+		overflow: hidden;
+}
+
+	/* 九宫格 */
+.sudoku_list {
+		padding: 10rpx;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+}
+.sudoku_item {
+		width: 180rpx;
+		margin: 4rpx;
+		padding: 4rpx;
+}
+.sudoku_item_img {
+		margin-top: 10rpx;
+		margin-left: 10rpx;
+		width: 150rpx;
+		height: 150rpx;
+		border-radius: 75rpx;
+		overflow: hidden;
+		box-shadow: 4px 4px 8px rgba(99, 95, 95, 0.6);
+}
+
+	/* 填写昵称 */
+.name {
+		margin: 20rpx auto;
+		padding: 5rpx;
+		width: 290rpx;
+		height: 70rpx;
+		line-height: 70rpx;
+		color: white;
+		overflow: hidden;
+		-webkit-backdrop-filter: blur(10px);
+		        backdrop-filter: blur(10px);
+		border-radius: 18rpx;
+		background: rgba(250, 250, 250, 0.5);
+		box-shadow: 4px 4px 8px rgba(141, 138, 138, 0.5);
+}
+.name input {
+		height: 70rpx;
+		line-height: 70rpx;
+}
+.placeholder {
+		color: white;
+		text-align: center;
+}
+
+	/* 选择性别 */
+.gender {
+		margin: 20rpx auto;
+		width: 300rpx;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		-webkit-backdrop-filter: blur(10px);
+		        backdrop-filter: blur(10px);
+		border-radius: 18rpx;
+		background: rgba(250, 250, 250, 0.5);
+		box-shadow: 4px 4px 8px rgba(141, 138, 138, 0.5);
+}
+.gender_item {
+		margin: 10rpx;
+		width: 80rpx;
+		text-align: center;
+}
+.gender_item image {
+		width: 80rpx;
+		height: 80rpx;
+		border-radius: 40rpx;
+		overflow: hidden;
+		box-shadow: 4px 4px 8px rgba(99, 95, 95, 0.6);
+}
+.item_ckd {
+		padding: 4rpx;
+		border-radius: 30rpx;
+		background-color: rgba(10, 223, 10, 0.4);
+		box-shadow: 4px 4px 8px rgba(141, 138, 138, 0.5);
+}
+
+	/* 选择年龄 */
+.age {
+		margin: 20rpx auto;
+		width: 300rpx;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		-webkit-backdrop-filter: blur(10px);
+		        backdrop-filter: blur(10px);
+		border-radius: 18rpx;
+		background: rgba(250, 250, 250, 0.5);
+		box-shadow: 4px 4px 8px rgba(141, 138, 138, 0.5);
+}
+.age_item {
+		margin: 10rpx;
+		width: 80rpx;
+		height: 60rpx;
+		line-height: 60rpx;
+		text-align: center;
+		border-radius: 18rpx;
+}
+
+	/* 保存按钮 */
+.saveBtn {
+		margin: 50rpx auto;
+		width: 250rpx;
+		color: white;
+		text-align: center;
+		border-radius: 18rpx;
+}
+
+	/* 左侧导航栏 */
+.LsideNavBox {
+		position: fixed;
+		left: 15rpx;
+		bottom: 40rpx;
+		display: flex;
+		flex-direction: column;
+}
+.LsideNavBox image {
+		width: 80rpx;
+		height: 80rpx;
+}
+
+	/* 右侧边导航栏 */
+.RsideNavBox {
+		position: fixed;
+		right: 15rpx;
+		bottom: 40rpx;
+		display: flex;
+		flex-direction: column;
+}
+.RsideNavBox image {
+		border: none;
+		width: 80rpx;
+		height: 80rpx;
+}
+
+	/* 导航栏子项 */
+.NavItem {
+		margin: 10rpx;
+}
+.kefubtn::after {
+		border: none;
+}
+.kefubtn {
+		padding: 0;
+		margin: 0;
+		border: none;
+		background-color: transparent;
+}

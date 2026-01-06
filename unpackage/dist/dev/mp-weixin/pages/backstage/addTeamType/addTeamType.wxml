@@ -1,0 +1,1 @@
+<view><view class="box"><view class="input_item"> 队伍类型：<input placeholder="填写队伍类型" value="{{a}}" bindinput="{{b}}"/></view><view class="input_button"><view class="bg_blue cancle_btn" bindtap="{{c}}">取 消</view><view class="bg_green confirm_btn" bindtap="{{d}}">确认添加</view></view></view></view>

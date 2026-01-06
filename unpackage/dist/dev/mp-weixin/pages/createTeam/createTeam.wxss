@@ -1,0 +1,86 @@
+
+	/* 房间号 */
+
+	/* 队伍名 */
+
+	/* 队伍类型 */
+
+	/* 标题 */
+.title {
+		margin: 20rpx;
+}
+
+	/* 输入框 */
+input {
+		padding: 10rpx;
+		height: 60rpx;
+		line-height: 60rpx;
+		border: white solid 2rpx;
+		border-radius: 16rpx;
+		box-shadow: 4px 4px 8px rgba(141, 138, 138, 0.5);
+}
+
+	/* 输入框提示 */
+.placeholder {
+		margin-left: 20rpx;
+		color: white;
+}
+
+	/* 栏目列表 */
+.sudoku_list {
+		padding: 10rpx;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+		border-radius: 16rpx;
+		-webkit-backdrop-filter: blur(10px);
+		        backdrop-filter: blur(10px);
+		background: rgba(250, 250, 250, 0.5);
+		box-shadow: 4px 4px 8px rgba(141, 138, 138, 0.5);
+}
+.item_ckd {
+		padding: 4rpx;
+		border-radius: 30rpx;
+		background-color: rgba(10, 223, 10, 0.4);
+		box-shadow: 4px 4px 8px rgba(141, 138, 138, 0.5);
+}
+.sudoku_item {
+		width: 130rpx;
+		margin: 4rpx;
+		padding: 4rpx;
+}
+.sudoku_item_name {
+		margin: 5rpx;
+		text-align: center;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+}
+.sudoku_item_img {
+		margin-top: 15rpx;
+		margin-left: 15rpx;
+		width: 100rpx;
+		height: 100rpx;
+		border-radius: 50rpx;
+		overflow: hidden;
+		box-shadow: 4px 4px 8px rgba(99, 95, 95, 0.6);
+}
+
+	/* 确定创建按钮 */
+.cfmbtn {
+		margin: 0 auto;
+		width: 250rpx;
+		height: 100rpx;
+		line-height: 100rpx;
+		font-size: 18px;
+		text-align: center;
+		border-radius: 10px;
+		border-top: rgb(154, 86, 233) solid 6rpx;
+		border-left: rgb(154, 86, 233) solid 6rpx;
+		background-color: #590d8f;
+		box-shadow: 4px 4px 8px rgba(141, 138, 138, 0.5);
+}

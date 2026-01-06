@@ -1,0 +1,128 @@
+{
+	"pages": [{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "鹅鸭杀组队助手",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/createTeam/createTeam",
+			"style": {
+				"navigationBarTitleText": "创建队伍",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/myTeamDetail/myTeamDetail",
+			"style": {
+				"navigationBarTitleText": "我的队伍详情",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/teamDetail/teamDetail",
+			"style": {
+				"navigationBarTitleText": "队伍详情",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+
+	"subPackages": [{
+		"root": "pages/backstage/",
+		"pages": [{
+				"path": "backstageHome/backstageHome",
+				"style": {
+					"navigationBarTitleText": "后台首页",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "miniApp/miniApp",
+				"style": {
+					"navigationBarTitleText": "小程序管理",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "addHeadImg/addHeadImg",
+				"style": {
+					"navigationBarTitleText": "添加头像",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "addTeamType/addTeamType",
+				"style": {
+					"navigationBarTitleText": "添加队伍类型",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "addGameMode/addGameMode",
+				"style": {
+					"navigationBarTitleText": "添加游戏模式",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "addGameMap/addGameMap",
+				"style": {
+					"navigationBarTitleText": "添加游戏地图",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "adminList/adminList",
+				"style": {
+					"navigationBarTitleText": "添加新管理员",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "addAdmin/addAdmin",
+				"style": {
+					"navigationBarTitleText": "添加新管理员",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "addMeTopBg/addMeTopBg",
+				"style": {
+					"navigationBarTitleText": "添加我的页面背景",
+					"enablePullDownRefresh": false
+				}
+
+			},
+			{
+				"path": "addNotice/addNotice",
+				"style": {
+					"navigationBarTitleText": "添加通知内容",
+					"enablePullDownRefresh": false
+				}
+
+			}
+		]
+	}],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "鹅鸭杀组队助手",
+		"navigationBarBackgroundColor": "#403873",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

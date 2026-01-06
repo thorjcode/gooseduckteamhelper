@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "鹅鸭杀组队助手",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-notice-bar": "../../uni_modules/uni-notice-bar/components/uni-notice-bar/uni-notice-bar",
+    "uni-countdown": "../../uni_modules/uni-countdown/components/uni-countdown/uni-countdown"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "getTeamhall",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,89 @@
+
+	/* 顶部导航栏 */
+.topnav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 999;
+		width: 100%;
+		height: 100rpx;
+		display: flex;
+		flex-direction: row;
+		justify-content: start;
+		font-size: 20px;
+		font-weight: 600;
+		background-color: #403873;
+}
+.navitem {
+		margin-left: 30rpx;
+}
+.nav_color {
+		padding: 10rpx;
+		border-bottom: 2px #42A5F5 solid;
+}
+
+	/* 滚动通知栏 */
+.notice {
+		margin-top: 100rpx;
+}
+
+	/* 复制图标 */
+.copyimg {
+		width: 40rpx;
+		height: 40rpx;
+}
+
+	/* 倒计时 */
+.countdown {
+		display: flex;
+		flex-direction: row;
+		font-size: 12px;
+}
+
+	/* 没有数据 */
+.teamnull {
+		margin: 10px;
+		text-align: center;
+}
+.teamnull image {
+		width: 80px;
+		height: 50px;
+}
+
+	/* 底部导航栏 */
+.botNavBox {
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 30rpx;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+}
+
+	/* 创建队伍 */
+.cjteam {
+		width: 300rpx;
+		height: 100rpx;
+		line-height: 100rpx;
+		font-size: 26px;
+		text-align: center;
+		border-radius: 10px;
+		border-top: rgb(154, 86, 233) solid 6rpx;
+		border-left: rgb(154, 86, 233) solid 6rpx;
+		background-color: #590d8f;
+		box-shadow: 4px 4px 8px rgba(141, 138, 138, 0.5);
+}
+.mePage {
+		width: 200rpx;
+		height: 100rpx;
+		line-height: 100rpx;
+		font-size: 18px;
+		text-align: center;
+		border-radius: 10px;
+		border-top: rgb(154, 86, 233) solid 6rpx;
+		border-left: rgb(154, 86, 233) solid 6rpx;
+		background-color: #590d8f;
+		box-shadow: 4px 4px 8px rgba(141, 138, 138, 0.5);
+}

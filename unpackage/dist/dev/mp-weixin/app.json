@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/createTeam/createTeam",
+    "pages/me/me",
+    "pages/myTeamDetail/myTeamDetail",
+    "pages/teamDetail/teamDetail"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/backstage/",
+      "pages": [
+        "backstageHome/backstageHome",
+        "miniApp/miniApp",
+        "addHeadImg/addHeadImg",
+        "addTeamType/addTeamType",
+        "addGameMode/addGameMode",
+        "addGameMap/addGameMap",
+        "adminList/adminList",
+        "addAdmin/addAdmin",
+        "addMeTopBg/addMeTopBg",
+        "addNotice/addNotice"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "鹅鸭杀组队助手",
+    "navigationBarBackgroundColor": "#403873",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

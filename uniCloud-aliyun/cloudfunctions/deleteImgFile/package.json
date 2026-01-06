@@ -1,0 +1,7 @@
+{
+  "name": "deleteImgFile",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
